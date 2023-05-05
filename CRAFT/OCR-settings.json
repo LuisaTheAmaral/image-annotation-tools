@@ -1,0 +1,23 @@
+{
+    "image_folder": "crop_words/",
+    "workers": 4,
+    "batch_size": 192,
+    "saved_model": "None-ResNet-None-CTC.pth",
+
+    "batch_max_length": 25,
+    "imgH": 32,
+    "imgW": 100,
+    "rgb": false,
+    "character": "0123456789abcdefghijklmnopqrstuvwxyz",
+    "sensitive": false,
+    "PAD": false,
+
+    "Transformation": "None",
+    "FeatureExtraction": "ResNet",
+    "SequenceModeling": "None",
+    "Prediction": "CTC",
+    "num_fiducial": 20,
+    "input_channel": 1,
+    "output_channel": 512,
+    "hidden_size": 256
+}
